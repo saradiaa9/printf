@@ -138,7 +138,8 @@ m /= 16;
 }
 while (m != 0);
                  
-while (i > 0) {
+while (i > 0)
+{
 _putchar(buffer[--i]);
 count++;
 }
@@ -167,7 +168,8 @@ while (n != 0);
 _putchar('0');
 _putchar('x');
 count += 2;
-while (i > 0) {
+while (i > 0)
+{
 _putchar(buffer[--i]);
 count++;
 }
